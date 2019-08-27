@@ -1,0 +1,9 @@
+Stable_Quadratic (a,b,c)
+    if b > 0
+        x ← (-b - Sqrt(b * b - 4 * a * c)) / (2 * a)
+    if b < 0
+        x ← (-b + Sqrt(b * b - 4 * a * c)) / (2 * a)
+    if b == 0
+        return error
+    y = c / (a * x)
+    return x,y

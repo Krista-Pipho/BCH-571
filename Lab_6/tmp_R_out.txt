@@ -1,0 +1,15 @@
+==============================
+T-test between A and B
+==============================
+
+	Welch Two Sample t-test
+
+data:  data$A and data$B
+t = 6.2385, df = 96.245, p-value = 1.18e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 2.530712 4.892610
+sample estimates:
+mean of x mean of y 
+10.938735  7.227075 
+
